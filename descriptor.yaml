@@ -1,0 +1,13 @@
+code: customerportal-bundle
+description: This is the Customer Portal application bundle
+
+components:
+    plugins:
+        - plugins/customerportal-plugin.yaml
+
+    widgets:
+        - ui/widgets/cp-widgets-dir/cp-widgets/admin-configuration-widget-descriptor.yaml
+        - ui/widgets/cp-widgets-dir/cp-widgets/app-element-descriptor.yaml
+        - ui/widgets/cp-widgets-dir/cp-widgets/login-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
